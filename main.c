@@ -68,7 +68,7 @@ int main(int argc, char **argv)
     {
       gen(code[i][j]);
       printf("  pop rax\n");
-    }
+    } 
     printf("  mov rsp, rbp\n");
     printf("  pop rbp\n");
     printf("  ret\n");
